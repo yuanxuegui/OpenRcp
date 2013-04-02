@@ -70,11 +70,39 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Domain\Area.cs" />
+    <Compile Include="Models\Domain\Command.cs" />
+    <Compile Include="Models\Domain\CommandContext.cs" />
+    <Compile Include="Models\Domain\Device.cs" />
+    <Compile Include="Models\Domain\DeviceType.cs" />
+    <Compile Include="Models\Domain\Exhibition.cs" />
+    <Compile Include="Models\Domain\ICommandContext.cs" />
+    <Compile Include="Models\Domain\IExecutable.cs" />
+    <Compile Include="Models\Domain\IItemFinder.cs" />
+    <Compile Include="Models\Domain\IPropertyFinder.cs" />
+    <Compile Include="Models\Domain\ITimelineContext.cs" />
+    <Compile Include="Models\Domain\Operation.cs" />
+    <Compile Include="Models\Domain\Parameter.cs" />
+    <Compile Include="Models\Domain\ParameterType.cs" />
+    <Compile Include="Models\Domain\Property.cs" />
+    <Compile Include="Models\Domain\Timeline.cs" />
+    <Compile Include="Models\Domain\TimelineContext.cs" />
+    <Compile Include="Models\Domain\TimePoint.cs" />
+    <Compile Include="Models\Engine\DefaultTimeLineEngine.cs" />
+    <Compile Include="Models\Engine\ITimelineEngine.cs" />
+    <Compile Include="Models\Parser\IExhibitionParser.cs" />
+    <Compile Include="Models\Parser\XmlSerializerExhibitionParser.cs" />
+    <Compile Include="Models\Sender\ISender.cs" />
+    <Compile Include="Models\Sender\SenderLocator.cs" />
+    <Compile Include="Models\Sender\UDPSender.cs" />
+    <Compile Include="Models\Util\Constants.cs" />
+    <Compile Include="Models\Util\XmlSerializerUtil.cs" />
     <Compile Include="Modules\DevicesToolBox\DevicesToolBoxModule.cs" />
     <Compile Include="Modules\DevicesToolBox\ViewModels\DevicesToolBoxViewModel.cs" />
     <Compile Include="Modules\DevicesToolBox\Views\DevicesToolBoxView.xaml.cs">
       <DependentUpon>DevicesToolBoxView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Modules\ExhibitionDesktopModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

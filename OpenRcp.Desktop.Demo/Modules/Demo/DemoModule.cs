@@ -9,7 +9,7 @@ using Microsoft.Win32;
 namespace OpenRcp.Desktop.Demo.Modules.Startup
 {
 	[Export(typeof(IModule))]
-	public class StartupModule : ModuleBase
+	public class DemoModule : ModuleBase
 	{
 		[Import]
 		private IOutput _output = null;
