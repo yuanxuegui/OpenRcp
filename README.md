@@ -1,4 +1,6 @@
 OpenRcp
-=======
+=================================
 
-Rich Client Platform for WPF
+Open Rich Client Platform for WPF
+
+=================================
