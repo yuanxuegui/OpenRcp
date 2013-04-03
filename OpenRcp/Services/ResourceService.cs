@@ -93,7 +93,11 @@ namespace OpenRcp
 
         public event EventHandler LanguageChanged;
 
-
+        /// <summary>
+        /// 添加资源
+        /// </summary>
+        /// <param name="resource">IResource资源</param>
+        /// <returns></returns>
         public IResourceService AddResource(IResource resource)
         {
             Resources.Add(resource);
